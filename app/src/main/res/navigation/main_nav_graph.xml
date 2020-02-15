@@ -10,7 +10,6 @@
 		android:label="Home Fragment"
 		tools:layout="@layout/main_fragment" />
 
-
 	<fragment
 		android:id="@+id/calendarFragment"
 		android:name="com.billyangel.calendar.CalendarFragment"
