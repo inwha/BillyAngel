@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/main_nav_graph"
+	app:startDestination="@id/homeFragment">
+	<fragment
+		android:id="@+id/homeFragment"
+		android:name="com.billyangel.home.HomeFragment"
+		android:label="Home Fragment"
+		tools:layout="@layout/main_fragment"/>
+
+
+	<fragment
+		android:id="@+id/calendarFragment"
+		android:name="com.billyangel.calendar.CalendarFragment"
+		android:label="calendar Fragment"
+		tools:layout="@layout/main_fragment"/>
+
+	<fragment
+		android:id="@+id/weightFragment"
+		android:name="com.billyangel.weight.WeightFragment"
+		android:label="Weight Fragment"
+		tools:layout="@layout/main_fragment"/>
+
+	<fragment
+		android:id="@+id/settingFragment"
+		android:name="com.billyangel.setting.SettingFragment"
+		android:label="Setting Fragment"
+		tools:layout="@layout/main_fragment"/>
+</navigation>
+
+
+
+<!--<navigation xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--app:startDestination="@+id/london_screen">-->
+
+<!--<fragment-->
+<!--	android:id="@+id/london_screen"-->
+<!--	android:name="com.codechacha.navigation.LondonScreen"-->
+<!--	android:label="London screen"-->
+<!--	tools:layout="@layout/fragment_london_screen">-->
+<!--</fragment>-->
+
+<!--<fragment-->
+<!--	android:id="@+id/paris_screen"-->
+<!--	android:name="com.codechacha.navigation.ParisScreen"-->
+<!--	android:label="Paris screen"-->
+<!--	tools:layout="@layout/fragment_paris_screen">-->
+<!--</fragment>-->
+
+<!--<fragment-->
+<!--	android:id="@+id/italy_screen"-->
+<!--	android:name="com.codechacha.navigation.ItalyScreen"-->
+<!--	android:label="Italy screen"-->
+<!--	tools:layout="@layout/fragment_italy_screen">-->
+<!--</fragment>-->
+
+<!--</navigation>-->
