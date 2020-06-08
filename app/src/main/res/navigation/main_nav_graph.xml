@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/main_nav_graph"
+	app:startDestination="@id/homeFragment">
+	<fragment
+		android:id="@+id/homeFragment"
+		android:name="com.billyangel.home.HomeFragment"
+		android:label="Home Fragment"
+		tools:layout="@layout/main_fragment" />
+
+	<fragment
+		android:id="@+id/calendarFragment"
+		android:name="com.billyangel.calendar.CalendarFragment"
+		android:label="calendar Fragment"
+		tools:layout="@layout/main_fragment" />
+
+	<fragment
+		android:id="@+id/weightFragment"
+		android:name="com.billyangel.weight.WeightFragment"
+		android:label="Weight Fragment"
+		tools:layout="@layout/main_fragment" />
+
+	<fragment
+		android:id="@+id/settingFragment"
+		android:name="com.billyangel.setting.SettingFragment"
+		android:label="Setting Fragment"
+		tools:layout="@layout/main_fragment" />
+</navigation>
